@@ -5,7 +5,7 @@
 - Target application is a Hugo-based website
 - Deploy to GitHub Pages with GitHub Actions
 - Editorconfig + Prettier + Lint-Staged
-- Renovate
+- Renovate (no dashboard)
 - MkDocs-oriented Markdown in mind
 
 ## Doesn't
