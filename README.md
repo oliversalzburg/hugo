@@ -6,7 +6,6 @@
 -   Target application is a [Hugo](https://gohugo.io/)-based website
 -   Deploy to [GitHub Pages](https://pages.github.com/) with [GitHub Actions](https://github.com/features/actions) (configure in project: **Settings** → **Pages**)
 -   [EditorConfig](https://editorconfig.org/) + [Prettier](https://prettier.io/) + [lint-staged](https://github.com/okonet/lint-staged)
--   [Renovate](https://github.com/renovatebot/renovate) (no dashboard) (enable in your account: **Settings** → **Applications**)
 -   [MkDocs](https://www.mkdocs.org/)-oriented Markdown in mind
 
 ## Doesn't
@@ -21,10 +20,6 @@
 1.  Why modern Yarn?
 
     Among other things, Yarn is robust, performant and extremely versatile when it comes to repository management. The given configuration provides a very solid first-time experience. Some of the things that make modern Yarn great can be seen in this project template.
-
-1.  Why Renovate?
-
-    Dependabot doesn't play nice with Yarn sometimes. We don't like Dependabot, we like Renovate.
 
 1.  Why the MkDocs Markdown?
 
