@@ -14,6 +14,6 @@
     "postcss": "8.4.12",
     "postcss-cli": "10.0.0",
     "prettier": "2.6.1",
-    "prettier-package-json": "2.6.3"
+    "prettier-package-json": "2.7.0"
   }
 }
