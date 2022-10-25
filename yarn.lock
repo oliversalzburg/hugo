@@ -1927,12 +1927,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.3.1":
-  version: 3.3.2
-  resolution: "nanoid@npm:3.3.2"
+"nanoid@npm:^3.3.4":
+  version: 3.3.4
+  resolution: "nanoid@npm:3.3.4"
   bin:
     nanoid: bin/nanoid.cjs
-  checksum: 48a0e9e9f80ced7a7eedf4017236e355eb48284b2bc65e7d75df6348e679b5762ce2e4b375977222c9b4399729a4e564c53bcde814d405c135b0f77a24ecb27c
+  checksum: a0747d5c6021828fe8d38334e5afb05d3268d7d4b06024058ec894ccc47070e4e81d268a6b75488d2ff3485fa79a75c251d4b7c6f31051bb54bb662b6fd2a27d
   languageName: node
   linkType: hard
 
@@ -2296,14 +2296,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.12":
-  version: 8.4.12
-  resolution: "postcss@npm:8.4.12"
+"postcss@npm:8.4.18":
+  version: 8.4.18
+  resolution: "postcss@npm:8.4.18"
   dependencies:
-    nanoid: ^3.3.1
+    nanoid: ^3.3.4
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: f5aea065c84efef236e9f387eb4fceaab3cc932c25ce480bb82f75b36a6c1a7720cc4c5ef2fb82a5d216aecb5c436af36dae45191e94a7a5b53c2b999610430f
+  checksum: df38b43e0cd79b115305fb787f4586d376b38c515692ef7429785af84d00ebe86f2276b98071d3f62848daf8639ee4ef6057618b34c292196dc6af072eeede5e
   languageName: node
   linkType: hard
 
@@ -3130,7 +3130,7 @@ __metadata:
     autoprefixer: 10.4.4
     hugo-extended: 0.96.0
     lint-staged: 13.0.3
-    postcss: 8.4.12
+    postcss: 8.4.18
     postcss-cli: 10.0.0
     prettier: 2.6.1
     prettier-package-json: 2.7.0
