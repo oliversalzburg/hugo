@@ -1092,6 +1092,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:^11.0.0":
+  version: 11.1.0
+  resolution: "fs-extra@npm:11.1.0"
+  dependencies:
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^2.0.0
+  checksum: 8085a078ead6a95711cc3cb689f9a64ad7393a1cdf7ed1bdab9dbef384f4a8fac941d20b1eb3067c427c82730a1078f9cfe93d86b98e848ee5445024ad0a3fa4
+  languageName: node
+  linkType: hard
+
 "fs-minipass@npm:^2.0.0, fs-minipass@npm:^2.1.0":
   version: 2.1.0
   resolution: "fs-minipass@npm:2.1.0"
@@ -2234,13 +2245,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-cli@npm:10.0.0":
-  version: 10.0.0
-  resolution: "postcss-cli@npm:10.0.0"
+"postcss-cli@npm:10.1.0":
+  version: 10.1.0
+  resolution: "postcss-cli@npm:10.1.0"
   dependencies:
     chokidar: ^3.3.0
     dependency-graph: ^0.11.0
-    fs-extra: ^10.0.0
+    fs-extra: ^11.0.0
     get-stdin: ^9.0.0
     globby: ^13.0.0
     picocolors: ^1.0.0
@@ -2248,13 +2259,13 @@ __metadata:
     postcss-reporter: ^7.0.0
     pretty-hrtime: ^1.0.3
     read-cache: ^1.0.0
-    slash: ^4.0.0
+    slash: ^5.0.0
     yargs: ^17.0.0
   peerDependencies:
     postcss: ^8.0.0
   bin:
     postcss: index.js
-  checksum: a0411ebb280bfb687fb38d95910ab0c3956f9149c682229ca53e244a031a4e3acf6c5a010a9974e42e67dc93ebbb2ef6692e407193bbafcbb661a51ef7a4a85b
+  checksum: 0cbf18868fd6ffc6063867879da14ab0c1743cb7d14b262b052edb8073588ab9e4dd0b16a959eb07dab5e8777d2ad041cd8bbf1dc68a487f8f412774c3503f0d
   languageName: node
   linkType: hard
 
@@ -2631,6 +2642,13 @@ __metadata:
   version: 4.0.0
   resolution: "slash@npm:4.0.0"
   checksum: b522ca75d80d107fd30d29df0549a7b2537c83c4c4ecd12cd7d4ea6c8aaca2ab17ada002e7a1d78a9d736a0261509f26ea5b489082ee443a3a810586ef8eff18
+  languageName: node
+  linkType: hard
+
+"slash@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "slash@npm:5.0.0"
+  checksum: 157e61f9c749d107a2069a8d6169f40451bf8853e4e104938afd6c02ad224059033bc0420aeb85ad5ff71d36ca483a90bd1ea831a2ffa427317ce4844bcd966a
   languageName: node
   linkType: hard
 
@@ -3144,7 +3162,7 @@ __metadata:
     hugo-extended: 0.107.0
     lint-staged: 13.0.4
     postcss: 8.4.18
-    postcss-cli: 10.0.0
+    postcss-cli: 10.1.0
     prettier: 2.8.0
     prettier-package-json: 2.7.0
   languageName: unknown
