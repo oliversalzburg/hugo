@@ -314,12 +314,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:10.4.13":
-  version: 10.4.13
-  resolution: "autoprefixer@npm:10.4.13"
+"autoprefixer@npm:10.4.14":
+  version: 10.4.14
+  resolution: "autoprefixer@npm:10.4.14"
   dependencies:
-    browserslist: ^4.21.4
-    caniuse-lite: ^1.0.30001426
+    browserslist: ^4.21.5
+    caniuse-lite: ^1.0.30001464
     fraction.js: ^4.2.0
     normalize-range: ^0.1.2
     picocolors: ^1.0.0
@@ -328,7 +328,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: 55ef1feb555516f68c740b3a0050d89b663c4a806a52ff23b184869ddf511b561fa56d66b2adb533bfef3798aee87b31132474582968d84fa59da133f837a230
+  checksum: 66ce961b86acd2a46e05ac1eece8657b3d9edfd2ee3abddd6cfcb32755e6865409f57acf11fe05990d6f166afda85a603678435916267a09652265cfff7b5706
   languageName: node
   linkType: hard
 
@@ -382,17 +382,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.21.4":
-  version: 4.21.4
-  resolution: "browserslist@npm:4.21.4"
+"browserslist@npm:^4.21.5":
+  version: 4.21.5
+  resolution: "browserslist@npm:4.21.5"
   dependencies:
-    caniuse-lite: ^1.0.30001400
-    electron-to-chromium: ^1.4.251
-    node-releases: ^2.0.6
-    update-browserslist-db: ^1.0.9
+    caniuse-lite: ^1.0.30001449
+    electron-to-chromium: ^1.4.284
+    node-releases: ^2.0.8
+    update-browserslist-db: ^1.0.10
   bin:
     browserslist: cli.js
-  checksum: bbc5fe2b4280a590cb40b110cd282f18f4542d75ddb559dfe0a174fda0263d2a7dd5b1634d0f795d617d69cb5f9716479c4a90d9a954a7ef16bc0a2878965af8
+  checksum: 903040d2c45b733e1177c288b4f146ff21d45e8a44ccc87d1d7fc2f6a8d021c7ee54b514fd7722529c282381969382a54bd2ab4263f5b6c8981a856b457ea162
   languageName: node
   linkType: hard
 
@@ -492,10 +492,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001400, caniuse-lite@npm:^1.0.30001426":
-  version: 1.0.30001427
-  resolution: "caniuse-lite@npm:1.0.30001427"
-  checksum: 22d42142299a6c42dd5975b9e4f6df821bb54edbba4c59954312ae4ce27a6dc340d68dd2b04f22af1fedc5b380ccb1ac94e42c5dc08d645622dd18d7ed389382
+"caniuse-lite@npm:^1.0.30001449, caniuse-lite@npm:^1.0.30001464":
+  version: 1.0.30001474
+  resolution: "caniuse-lite@npm:1.0.30001474"
+  checksum: 4a5d1435c38c8f24c00b99bac7b70b1968f3f0772c8b34838a9247dcc630b2dda544ba5d4053efd3171c0e24240133cced26df054290c7413ce4540763588f93
   languageName: node
   linkType: hard
 
@@ -897,10 +897,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-to-chromium@npm:^1.4.251":
-  version: 1.4.284
-  resolution: "electron-to-chromium@npm:1.4.284"
-  checksum: 33a7509755efbc0e13e81cdf0486ed37ea354857213b92a987a81e229083c1b2ee5f663c1103db9e5ec142a611e0daeeee02f757f7184833866f8aecb7046c2b
+"electron-to-chromium@npm:^1.4.284":
+  version: 1.4.351
+  resolution: "electron-to-chromium@npm:1.4.351"
+  checksum: 0dbc7b6613cde6a69457e34f7392530c81b606cd17575a340ad503a9d023a54dcf3f48ba92f6fd692bc42ecf86d20371620ab218c2c22ecb935d6d482d404f64
   languageName: node
   linkType: hard
 
@@ -1980,10 +1980,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-releases@npm:^2.0.6":
-  version: 2.0.6
-  resolution: "node-releases@npm:2.0.6"
-  checksum: 25b08960cdf6a85075baf312f7cdcb4f9190c87abf42649ac441448a02486df3798363896bf2f0f9c6a1c7e26b3ca298c8a9295f7dd5e5eff6b6a78574a88350
+"node-releases@npm:^2.0.8":
+  version: 2.0.10
+  resolution: "node-releases@npm:2.0.10"
+  checksum: 90947653e8e3d85bda4bcbf28d019693ccfb5d5947838ca64e91208b51d7bfc13ba930b8216389a4faffbad8145b2c616bf1f7a09c97a1a9ac57fd6ef6d01c5c
   languageName: node
   linkType: hard
 
@@ -3024,7 +3024,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"update-browserslist-db@npm:^1.0.9":
+"update-browserslist-db@npm:^1.0.10":
   version: 1.0.10
   resolution: "update-browserslist-db@npm:1.0.10"
   dependencies:
@@ -3172,7 +3172,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "yarn3-hugo@workspace:."
   dependencies:
-    autoprefixer: 10.4.13
+    autoprefixer: 10.4.14
     hugo-extended: 0.111.3
     lint-staged: 13.2.0
     postcss: 8.4.21
