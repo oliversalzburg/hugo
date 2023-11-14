@@ -6,6 +6,9 @@
   "type": "module",
   "scripts": {
     "build": "hugo --environment production --minify",
+    "lint": "yarn run lint:all",
+    "lint:all": "yarn run lint:prettier",
+    "lint:prettier": "prettier --check .",
     "serve": "hugo server --buildDrafts"
   },
   "devDependencies": {
