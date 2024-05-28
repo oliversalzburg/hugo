@@ -10,7 +10,7 @@ jobs:
   build-and-deploy:
     name: Deploy to gh-pages
     concurrency: ci-${{ github.ref }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - name: Checkout
@@ -18,17 +18,20 @@ jobs:
 
       - name: Select NodeJS version
         uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4
-        with:
+        env:
           # renovate: datasource=docker depName=node versioning=node
-          node-version: "20.12.2"
+          NODE_VERSION: "20.13.1"
+        with:
+          node-version: ${{ env.NODE_VERSION }}
 
       - name: Enable Corepack
         run: corepack enable
 
-      - name: Install and Build
-        run: |
-          yarn install
-          yarn build
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build
+        run: yarn build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@5c6e9e9f3672ce8fd37b9856193d2a537941e66c # v4.6.1
