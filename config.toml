@@ -1,3 +1,4 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
+publishDir = '_site'
 title = 'My New Hugo Site'

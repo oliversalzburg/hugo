@@ -7,7 +7,7 @@
 .pnp.*
 
 node_modules
-public/
-resources/
 
-.hugo_build.lock
+/_site/
+/resources/
+/.hugo_build.lock
