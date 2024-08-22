@@ -1,16 +1,22 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
   "name": "yarn3-hugo",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oliversalzburg/hugo.git"
+  },
   "type": "module",
   "scripts": {
     "build": "hugo --environment production --minify",
     "lint": "yarn run lint:all",
     "lint:all": "yarn run lint:prettier",
     "lint:prettier": "prettier --check .",
+    "nextversion": "echo 1.0.0",
     "serve": "hugo server --buildDrafts",
-    "test": "echo this project has no tests."
+    "test": "echo This project has no tests."
   },
   "devDependencies": {
     "autoprefixer": "10.4.20",
