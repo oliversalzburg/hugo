@@ -1,13 +1,4 @@
-.yarn/*.*
-.yarn/cache/**
-!.yarn/releases
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/versions
-.pnp.*
-
-node_modules
-
 _site/
+node_modules/
 resources/
 .hugo_build.lock

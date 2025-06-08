@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
   "private": true,
-  "name": "yarn3-hugo",
+  "name": "hugo",
   "version": "1.0.0",
   "license": "MIT",
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
@@ -16,6 +16,5 @@
     "hugo-extended": "0.147.6",
     "postcss": "8.5.4",
     "postcss-cli": "11.0.1"
-  },
-  "packageManager": "yarn@4.9.1"
+  }
 }
