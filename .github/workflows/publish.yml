@@ -8,7 +8,7 @@ on:
 jobs:
   qa:
     name: 🔹 QA
-    uses: oliversalzburg/workflows/.github/workflows/qa-browser-app.yml@main
+    uses: oliversalzburg/workflows/.github/workflows/qa-browser-app.yml@1ba99b645bcdde631e6a535a8578e82edce3c562 # main
 
   publish:
     if: github.ref_name == github.event.repository.default_branch
@@ -20,6 +20,6 @@ jobs:
       packages: read
       pages: write
       pull-requests: read
-    uses: oliversalzburg/workflows/.github/workflows/publish-browser-app.yml@main
+    uses: oliversalzburg/workflows/.github/workflows/publish-browser-app.yml@1ba99b645bcdde631e6a535a8578e82edce3c562 # main
     with:
       wants-github-release: false

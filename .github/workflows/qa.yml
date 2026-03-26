@@ -10,7 +10,7 @@ on:
 jobs:
   qa:
     name: 🔹 QA
-    uses: oliversalzburg/workflows/.github/workflows/qa-browser-app.yml@main
+    uses: oliversalzburg/workflows/.github/workflows/qa-browser-app.yml@1ba99b645bcdde631e6a535a8578e82edce3c562 # main
 
   qa-passed:
     needs:
